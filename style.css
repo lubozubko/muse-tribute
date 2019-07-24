@@ -1,0 +1,329 @@
+html {
+    height: 100%;
+}
+body {
+    color: #FFFFFF;
+    background: #222222;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+}
+
+main {
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+h2 {
+    text-align: center;
+    color: rgba(233,10,130,1);
+    font-weight: 700;
+    font-size: 35px;
+    padding: 5px 0;
+    margin: 15px 0;
+}
+
+strong {
+    font-weight: bolder;
+}
+
+.col-md-3 .col-md-12 {
+    padding: 0;
+}
+
+
+/* main pic & title  */
+
+
+#main-img-div {
+    position: relative;
+    width: 100%;
+    height: 700px;
+    padding: 0;
+}
+
+#main-image {
+    position: absolute;
+    height: 700px;
+    width: 100%;
+    z-index: 1;
+}
+
+#logo {
+    padding: 5px 0;
+    height: 150px;
+    width: 288px;
+    right: 10px;
+    top: 410px;
+    margin: 25px;
+    position: absolute;
+    z-index: 3;
+}
+
+#title {
+    right: 10px;
+    top: 565px;
+    background: #222222;
+    font-size: 30px;
+    padding: 5px 42px;
+    margin: 25px;
+    position: absolute;
+    color: #FFFFFF;
+    z-index: 4;
+}
+
+.overlay {
+    background-image: linear-gradient( 179.3deg,  rgba(233,10,130,1) -0.1%, rgba(12,21,139,1) 96.7% );
+    opacity: 0.8;
+    width: 100%;
+    height: 700px;
+    position: absolute;
+    z-index: 2;
+}
+
+/* about section */
+
+#tribute-info {
+    position: relative;
+    width: 100%;
+    margin-bottom: 35px;
+}
+#tribute-info p {
+    padding: 5px;
+}
+
+#about-title{
+    padding: 1px;
+    float: none;
+    width: 160px;
+    margin: 35px auto;
+    border-top: 5px solid #FFFFFF;
+    border-bottom: 5px solid #FFFFFF;
+    font-family: 'IBM Plex Sans', sans-serif;
+    text-align: center;
+    font-size: 45px;
+    color: #FFFFFF;
+    font-weight: 700;
+}
+
+.band-social i {
+    padding: 20px;
+}
+
+.highlight {
+    font-weight: 700;
+    color: rgba(233,10,130,1);
+}
+
+.highlight:hover {
+    color: rgba(233,10,130,1);
+    text-decoration: none;
+}
+figure {
+    background: #1a1a1a;
+    text-align: center;
+    margin: 5px auto;
+    padding: 20px;
+}
+
+figcaption {
+    font-size: 15px;
+    padding: 15px;
+}
+#image {
+    margin: 5px auto;
+    width: 70%;
+    height: 70%;
+}
+
+#band-social-ul {
+    text-align: center;
+    margin: 15px auto 35px auto;
+}
+.band-social {
+    padding: 5px;
+}
+
+.band-social .fab {
+    font-size: 35px;
+    color: rgba(233,10,130,1);
+}
+
+.fab:hover {
+    color: #FFFFFF;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -ms-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+
+
+/* timeline section */
+
+#tribute-timeline {
+    background: rgba(233,10,130,0.8);
+    position: relative;
+    text-align: center;
+    height: auto;
+    width: 100%;
+    padding: 0;
+}
+
+#time-title {
+    padding: 1px;
+    width: 230px;
+    position: relative;
+    margin: 55px auto;
+    text-align: center;
+    background: #222222;
+    border-top: 5px solid #FFFFFF;
+    border-bottom: 5px solid #FFFFFF;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 45px;
+    color: #FFFFFF;
+    font-weight: 700;
+}
+.timeline {
+    margin-bottom: 75px;
+}
+
+.timeline li {
+    width: 92%;
+    margin: 2px 0 2px 10px;
+    padding: 15px;
+    background: #222222;
+}
+
+.timeline li:hover {
+    cursor: default;
+    background: #373737;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -ms-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+
+/* discography section */
+#tribute-discography {
+    padding: 0;
+}
+
+#disc-title {
+    padding: 1px;
+    width: 340px;
+    position: relative;
+    margin: 55px auto;
+    text-align: center;
+    background: #222222;
+    border-top: 5px solid #FFFFFF;
+    border-bottom: 5px solid #FFFFFF;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 45px;
+    color: #FFFFFF;
+    font-weight: 700;
+    z-index: 3;
+}
+
+.albums-container {
+    margin: 10px auto;
+    text-align: center;
+}
+
+.albums {
+    display: inline-block;
+    background: transparent;
+    width: 250px;
+    margin: 15px;
+    height: 250px;
+
+}
+
+.album {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+    -webkit-transition: transform 0.9s;
+    -moz-transition: transform 0.9s;
+    -ms-transition: transform 0.9s;
+    -o-transition: transform 0.9s;
+    -transition: transform 0.9s;
+
+}
+
+.albums:hover .album {
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+}
+
+.album-front, .album-back {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    box-shadow: 0 4px 8px 0 black;
+}
+
+.album-back {
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+}
+
+.album-art {
+    width: 250px;
+    height: 250px;
+}
+
+/* footer styling */
+
+.footer {
+    background: #1a1a1a;
+    text-align: center;
+    width: 100%;
+    margin-top: 100px;
+    height: 50px;
+}
+
+.copyright {
+    margin: 5px auto;
+}
+.footer p {
+    margin: auto;
+    opacity: 0.5;
+    color: #FFFFFF;
+    font-size: 18px;
+}
+
+.footer ul{
+    margin: 10px auto;
+}
+
+.footer-social .fab {
+    padding: 0 5px;
+    opacity: 0.5;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+.footer-social .fab:hover {
+    opacity: 0.9;
+    color: rgba(233,10,130,1);
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -ms-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+
+
